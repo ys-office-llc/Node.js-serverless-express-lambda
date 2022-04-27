@@ -40,5 +40,11 @@ curl https://{apiId}.execute-api.ap-northeast-1.amazonaws.com/dev/
 curl https://{apiId}.execute-api.ap-northeast-1.amazonaws.com/dev/users
 ```
 
+## 整形
+
+```shell
+$ npm run fmt
+```
+
 ## 参考情報
 - [serverless-expressでAPI GatewayからLambdaを実行する](https://zenn.dev/yuta_saito/articles/8b543a1957c375593ee5)
