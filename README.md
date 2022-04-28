@@ -47,4 +47,5 @@ $ npm run fmt
 ```
 
 ## 参考情報
-- [serverless-expressでAPI GatewayからLambdaを実行する](https://zenn.dev/yuta_saito/articles/8b543a1957c375593ee5)
+
+- [serverless-express で API Gateway から Lambda を実行する](https://zenn.dev/yuta_saito/articles/8b543a1957c375593ee5)
