@@ -1,20 +1,27 @@
 {
-  "name": "serverless-tutorial",
+  "name": "serverless-express-lambda",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template application framework that runs AWS Lambda with Node.js runtime",
   "scripts": {
+    "test": "echo \"test\"",
     "start": "node local-app",
     "fmt": "npx prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
   "dependencies": {
     "@vendia/serverless-express": "^4.8.0",
     "express": "^4.18.0"
   },
   "devDependencies": {
+    "husky": "^7.0.4",
     "prettier": "2.6.2"
   }
 }
