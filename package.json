@@ -12,7 +12,7 @@
   "license": "ISC",
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
+      "pre-commit": "npm test && npm fmt",
       "pre-push": "npm test"
     }
   },
